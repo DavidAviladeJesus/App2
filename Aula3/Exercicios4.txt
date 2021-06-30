@@ -1,0 +1,14 @@
+void main (){
+//4. Faça um programa que calcule e mostre a área de um quadrado;
+  
+ double area = 0;
+  double lado = 8;
+ 
+  
+  area = (lado * lado);
+  
+  
+  //metodo de impressão 
+  print('valor da Área do quadrado é: $area metros') ;
+
+}
