@@ -1,0 +1,22 @@
+void main (){
+  //7.Desenvolver um programa em Dart que calcule o índice da massa corporal. IMC = peso (kg) / altura (m) x altura (m). Verifique a seguinte tabela e escreva a classificação:
+
+
+
+
+
+  double imc = 0;
+  
+
+  double num1 = 1.90;
+  double num2 = 124;
+ 
+ imc = num2 /(num1*num1);
+  
+  
+  
+ print ("IMC igual a "+ '$imc');
+    
+ 
+
+}

@@ -1,0 +1,17 @@
+void main (){
+  //8.Desenvolver um programa em dart que valide se o saldo da conta corrente é maior ou igual ao valor que o cliente quer sacar.  Caso tenha saldo calcule o novo saldo subtraindo o valor do saque e escreva “Saque efetuado com sucesso!”, caso contrário escreva “Saldo indisponível”. Mostre o saldo final
+
+
+
+  double saldo = 500;
+  double valorSaque = 300;
+  
+ if (valorSaque <= saldo){
+   saldo = saldo - valorSaque;
+   print ("Saque realizado com sucesso! Seu novo saldo é "+ '$saldo');
+ } else {
+   print (" Saldo indisponível! Seu saldo é de " + '$saldo');
+ }
+    
+ 
+}

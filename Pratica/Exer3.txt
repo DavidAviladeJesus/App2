@@ -1,0 +1,27 @@
+void main (){
+  //3.Desenvolver um programa que receba três variáveis: a, b e c. Sabe-se que a = 2; b = 4; c =5. Calcule as seguintes fórmulas:
+
+//a) calculo = a + b * c;
+  
+//  b) calculo 2 = b / a * c; 
+
+  double a = 2;
+  double b = 4;
+  double c = 5;
+
+  double num1 = 0;
+  double num2 = 0;
+  
+  num1 =   (b*c)+a;
+  num2 = (b / a * c);
+  
+  
+  if (num1 == num2){
+    print ("Seus numeros são igual");
+  }else {
+    print ("os numeros são diferentes" );
+  }
+  print ("valor 1 = " + '$num1');
+  print ("valor 2 = " + '$num2');
+  
+}
