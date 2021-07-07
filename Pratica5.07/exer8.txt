@@ -1,0 +1,27 @@
+void main (){
+
+//void main (){
+//8. Escreva um algoritmo que leia um valor inicial A e imprima a sequência de valores do cálculo de  A! e o seu resultado. Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120
+
+
+
+
+ int a = 5;
+  int resultado = 1;
+  
+ 
+  while ( a >= 1 ){
+  
+  
+    resultado = resultado * a;
+       
+    a--;
+     }
+ print (resultado);
+  
+
+
+}
+ 
+
+ 

@@ -1,0 +1,16 @@
+void main (){
+//2. Crie um programa que leia uma lista com 10 índices, imprima na tela todos os números e retorne o maior deles.
+
+  
+  int maior = 0;
+ const List numeros = [2, 5, 3, 7, 8, 10, 50, 40, 1, 88];
+ for (int num in numeros){
+   if (num >= maior){
+     maior = num;
+   }
+
+ }
+	print (numeros);
+   print(maior);
+}
+ 

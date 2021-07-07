@@ -1,0 +1,11 @@
+void main (){
+//4.Desenvolver um programa que escreva os números pares de 1 a 10. 
+
+ 
+ for (int i = 2; i <= 10; i=i+2){
+  if (i%2 == 0){
+   print (i);
+  }
+   }
+
+ }
